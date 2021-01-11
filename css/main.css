@@ -11,6 +11,53 @@
   margin-left: auto;
 }
 
+header {
+  background-color: #00395b;
+  padding: 25px 0;
+}
+header nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav a {
+  text-decoration: none;
+}
+header nav .logo-wrap {
+  flex: 0 0 25%;
+  max-width: 180px;
+}
+header nav ul {
+  flex: 0 0 60%;
+  max-width: 60%;
+  display: flex;
+  text-align: right;
+  justify-content: flex-end;
+}
+header nav ul li {
+  flex: 0 0 15%;
+  max-width: 15%;
+  list-style: none;
+  text-align: center;
+  padding: 8px 0;
+}
+header nav ul li a {
+  font-size: 16px;
+  color: #ffffff;
+}
+header nav .btn-wrap {
+  flex: 0 0 15%;
+  max-width: 15%;
+  text-align: center;
+}
+header nav .btn-wrap a {
+  color: #ffffff;
+  font-size: 16px;
+  padding: 23px 37px;
+  background-color: red;
+}
+
 .highlights {
   padding: 100px 0;
 }
